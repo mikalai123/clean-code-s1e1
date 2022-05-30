@@ -18,11 +18,11 @@ body {
     transform: rotateZ(0deg);
 }
 
-.more_inf {
+.inf {
     font-family: fantasy, cursive;
 }
 
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -39,7 +39,7 @@ body {
     width: 226px;
 }
 
-.task-row-wrapper {
+.wrapper {
     display: flex;
 }
 
@@ -140,7 +140,7 @@ img:hover {
 }
 
 /* Completed */
-.task {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
